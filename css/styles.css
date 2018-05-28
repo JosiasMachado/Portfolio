@@ -521,6 +521,37 @@ footer .menu li a:hover{
 
 
 
+
+
+#contenedor_carga {
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    -webkit-transition: all 3s ease;
+    -o-transition: all 3s ease;
+    transition: all 3s ease;
+    z-index: 10000;
+}
+#carga {
+  background-image: url(../11.gif);
+  background-repeat: no-repeat;
+    height: 200px;
+    width: 200px;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+
+}
+
+
+
+
+
 @media only screen and (max-width: 600px) {
     .portfoliocontainer {
         width: 98%;
